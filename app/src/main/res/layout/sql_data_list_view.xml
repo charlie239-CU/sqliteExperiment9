@@ -1,0 +1,37 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:paddingVertical="10dp"
+    android:layout_height="wrap_content"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ID"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="#676060"
+        android:id="@+id/idList"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Name"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:id="@+id/nameList"
+        android:textColor="#676060"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/emailList"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="#676060"
+        android:text="email"
+        android:layout_weight=".5"/>
+</LinearLayout>
